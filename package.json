@@ -1,0 +1,20 @@
+{
+  "name": "midini",
+  "version": "1.0.0",
+  "description": "Smart harmonizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon --exec node ./midi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "baconjs": "^0.7.89",
+    "lodash": "^4.17.4",
+    "midiguchi": "^0.3.0",
+    "nodemon": "^1.11.0",
+    "tonal": "^0.68.1"
+  }
+}
