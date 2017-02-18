@@ -2,19 +2,24 @@
   "name": "midini",
   "version": "1.0.0",
   "description": "Smart harmonizer",
-  "main": "index.js",
+  "main": "gui.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "nodemon --exec node ./midi.js"
+    "gui": "electron .",
+    "gui:watch": "nodemon --config nodemon.json --exec \"npm run gui\"",
+    "cli": "node -e \"require('./midi')({ee: new (require('events').EventEmitter)())\"",
+    "cli:watch": "nodemon --exec \"npm run cli\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "baconjs": "^0.7.89",
+    "electron": "^1.4.15",
+    "electron-rebuild": "^1.5.7",
     "lodash": "^4.17.4",
     "midiguchi": "^0.3.0",
     "nodemon": "^1.11.0",
+    "p5": "^0.5.7",
     "tonal": "^0.68.1"
   }
 }

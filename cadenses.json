@@ -1,7 +1,16 @@
 [
-    ["min", "maj", 3],
-    ["min", "maj", -4],
-    ["maj", "7", 7],
-    ["maj", "min", 1],
-    ["maj", "min", 7, 10]
+  ["min", "maj", 3],
+  ["min", "maj", -4],
+  ["maj", "7", 7, true, 5],
+  ["min", "7", 7, true, 5],
+  ["min", "maj", -1, false],
+  ["maj", "maj", 1, true, -5],
+  ["maj", "min", 1, false, -5],
+  ["maj", "min", 7, true, 10],
+  ["min7", "maj", -1, false, 5],
+  ["maj", "min7", 1, false, -5],
+  ["min7", "maj7", 3, true, 5],
+  ["maj7", "maj", -1, true, 5],
+  ["maj7", "min7", 4, true, 5],
+  ["maj", "maj7", 3, false, 5]
 ]
