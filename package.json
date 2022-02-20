@@ -14,12 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "baconjs": "^0.7.89",
-    "electron": "^1.4.15",
-    "electron-rebuild": "^1.5.7",
+    "electron": "^11.2.1",
     "lodash": "^4.17.4",
-    "midiguchi": "^0.3.0",
+    "midiguchi": "https://github.com/sgtlambda/midiguchi.git",
     "nodemon": "^1.11.0",
     "p5": "^0.5.7",
     "tonal": "^0.68.1"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.7"
   }
 }
